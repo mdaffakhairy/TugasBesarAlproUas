@@ -82,6 +82,8 @@ def insert_data():
     except:
         TypeError
         print("input salah")
+        ValueError
+        print("input salah")
     else:
         insert(str(absensinim), str(absensinama), str(absensiabsen), str(absensikehadiran))
 
